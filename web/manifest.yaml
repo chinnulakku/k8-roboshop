@@ -9,7 +9,7 @@ data:
   worker_processes 4;
   pid /var/run/nginx.pid;
 
-  events {
+  events{
     worker_connections 768;
     # multi_accept on;
 }
